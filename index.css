@@ -1,0 +1,54 @@
+body{
+    margin: 10px;
+}
+.korap1{
+    width: 120px;
+    height: 100px;
+    background-color: blue;
+    transition-duration: 2s;
+    animation-name: none;
+}
+.korap1:hover{
+    width: 240px;
+    height: 200px;
+    transform:rotate(180deg);
+    background-color:darkorange ;
+}
+.korap2{
+    width: 350px;
+    height: 100px;
+    border: 2px solid slategray;
+}
+
+.korap22{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50px;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: text;
+}
+@keyframes text{
+    0%{
+
+    }
+    50%{
+      
+    }
+    100%{
+
+    }
+}
+.korap3{
+    width: 150px;
+    height: 150px;
+    border: 10px solid rgb(189, 189, 231);
+    border-radius: 85px;
+    border-bottom-color: blue;
+    animation-iteration-count: infinite;
+    transition-duration: 4s;
+    animation-name:initial;
+}
+
+
